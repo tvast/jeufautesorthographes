@@ -1,0 +1,38 @@
+#demo {
+	color: green;
+}
+#error {
+	color: red;
+}
+
+.menu {
+	color: black;
+}
+
+.foo {
+	width:50%;
+}
+
+.card:hover {
+	    /*border: solid 1px black;*/
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.smaller {
+	width:50%;
+	size :50;
+}
+
+.isToggle {
+	display : bloc;
+}
+
+.toggle {
+	display : none;
+}
+
+.rounded {
+	border-radius: 50%;
+	background-color: red;
+}

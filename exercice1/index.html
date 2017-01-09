@@ -1,0 +1,199 @@
+	<!doctype html>
+	<html class="no-js" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Jeu de</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./styles.css" media="all">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<script
+		src="https://code.jquery.com/jquery-3.1.1.js"
+		integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		crossorigin="anonymous"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+		<style type="text/css">
+	/*	#demo {
+			color: green;
+		}
+		#error {
+			color: red;
+		}*/
+	</style>
+</head>
+<body>
+
+	<nav>
+		<div class="menu white nav-wrapper">
+		<div class="container">
+			<a href="#" class="brand-logo"><img class="foo" src="http://www.institutfrancais.es/adjuntos/logotipo_20160719.jpg"></a>
+			<ul id="nav-mobile" class="menu right hide-on-med-and-down">
+				<li><a class="menu" href="http://www.institutfrancais.es/madrid/cursosdefrances/">retour au site</a></li>
+				<a id="compteur" class="center btn-floating btn-large waves-effect waves-light teal"><i class="material-icons"></i></a>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+
+		<div id="index-banner" class="parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<br><br>
+					<h1 class="header center teal-text text-lighten-2">Je dé fotes d'ortaugrafe</h1>
+					<div class="row center">
+						<h5 class="header col s12 light">Découvrez votre niveau en français</h5>
+					</div>
+					<br><br>
+
+				</div>
+			</div>
+			<div class="parallax"><img src="http://www.timeforkids.com/files/styles/tfk_rect_large/public/2011-07/france_ss2.jpg?itok=aW-EM84A" alt="Unsplashed background img 1"></div>
+		</div>
+		  
+		
+		<!-- Un toggle deux -->
+
+		<div id ="un" class="row card z-depth-5 center animated bounce">
+
+			<h3>Quel est la faute dans la phrase suivante :</h3>
+
+			<h4>"Ma mère veux que je travaille"</h4>
+			<form id="unbis" action="form_action.asp">
+				Votre réponse : <input type="text" size="35" class="smaller" name="fname" placeholder="Ma mère ____ que je travaille"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction1()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div>
+			<p id="demo1"></p>
+			<p id="error1"></p>
+
+		</div>
+
+		<!-- deux toggle trois -->
+
+		<div id ="deux" class="toggle row card center animated bounce">
+
+			<h3>Quel est la faute dans la phrase suivante :</h3>
+
+			<h4>"Mon chien ce sent seul"</h4>
+			<form id="deuxbis" action="form_action.asp">
+				Votre réponse : <input type="text" name="fname" placeholder="Mon chien __ sent seul"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction2()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div>
+			<p id="demo2"></p>
+			<p id="error2"></p>
+
+		</div>
+
+		<!-- trois toggle quattre -->
+
+		<div id ="trois" class="toggle row card center animated bounce">
+
+			<h3>Quel est la faute dans la phrase suivante :</h3>
+
+			<h4>"azertyu"</h4>
+			<form id="troisbis" action="form_action.asp">
+				Votre réponse : <input type="text" name="fname" placeholder="a"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction3()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div>
+			<p id="demo3"></p>
+			<p id="error3"></p>
+
+		</div>
+
+		<!-- quattre toggle cinq -->
+
+		<div id ="quattre" class="toggle row card center animated bounce">
+
+			<h3>Quel est la faute dans la phrase suivante :</h3>
+
+			<h4>"ertyu"</h4>
+			<form id="quattrebis" action="form_action.asp">
+				Votre réponse : <input type="text" name="fname" placeholder="a"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction4()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div>
+			<p id="demo4"></p>
+			<p id="error4"></p>
+
+		</div>
+
+		<div id ="cinq" class="toggle row card center animated bounce">
+
+			<h3>Quel est la faute dans la phrase suivante :</h3>
+
+			<h4>"wxcv"</h4>
+			<form id="cinqbis" action="form_action.asp">
+				Votre réponse : <input type="text" name="fname" placeholder="a"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction5()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div>
+			<p id="demo5"></p>
+			<p id="error5"></p>
+
+		</div>
+
+		<div id ="six" class="toggle row card center animated bounce">
+
+			<h3>Vous avez réussi votre test avec <p id="stat"></p>points</h3>
+
+			<h4>BRAVO !</h4>
+
+			<p>Découvrez nos formations pour faire progresser votre niveau</p>
+
+			<a href="http://www.institutfrancais.es/madrid/cursosdefrances/"><img src="Cursos de frances.png"></a>
+			<!-- <form id="myForm" action="form_action.asp">
+				Votre réponse : <input type="text" name="fname" placeholder="a"><br>
+			</form> 
+			<div class="row center">
+				<a onclick="myFunction5()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Vérifier ma réponse</a>
+			</div> -->
+			<p id="demo"></p>
+			<p id="error"></p>
+
+		</div>
+
+	</div>
+
+	<footer class="grey page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="text">IFE</h5>
+					<p class="black-text text-lighten-4">Le jeu des fautes d'orthographe </p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="text">Links</h5>
+					<ul>
+						<li><a class="black-text text-lighten-3" href="#!">Inscription niveau A1</a></li>
+						<li><a class="black-text text-lighten-3" href="#!">Découvrir la langue française</a></li>
+						<li><a class="black-text text-lighten-3" href="#!">Découvrir nos offres</a></li>
+						<li><a class="black-text text-lighten-3" href="#!">Vivre en france</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© Théophile Vast 2017
+				<a class="black-text text-lighten-4 right" href="#!">More Links</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
