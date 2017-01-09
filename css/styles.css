@@ -1,6 +1,6 @@
 body{
  /*   background-color: #00bdad;*/
- 	background-image: url("bipolare_gif.gif");
+ 	/*background-image: url("bipolare_gif.gif");*/
 	width: 100%;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -57,3 +57,7 @@ isDown {
   -o-background-size: cover;
   background-size: cover;*/
 };
+
+.foo {
+  width:50%;
+}
